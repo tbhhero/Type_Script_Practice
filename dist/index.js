@@ -21,4 +21,9 @@ var Size;
     Size[Size["Large"] = 3] = "Large";
 })(Size || (Size = {}));
 let mySize = Size.Medium;
-//# sourceMappingURL=index.js.map
+let employee = { id: 1,
+    name: 'Dhiraj',
+    retire: (date) => {
+        console.log(date);
+    }, };
+employee;
