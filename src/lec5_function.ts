@@ -15,8 +15,11 @@ var getDiff =function(num1:number,num2=4,num3?:number):number{
     return num1-num2
 }
 
-var theSum1: number =getSum(5,5)
+
 var theDiff1: number =getDiff(10)
 document.write("10 - 4 ="+theDiff1+"<br>")
-var theDiff2: number =getDiff(10,4,4)
-document.write("10 - 4 - 4 ="+theDiff2+"<br>")
+var theDiff2: number =getDiff(10,2)
+document.write("10 - 2 ="+theDiff2+"<br>")
+var theDiff3: number =getDiff(10,4,4)
+document.write("10 - 4 - 4 ="+theDiff3+"<br>")
+
